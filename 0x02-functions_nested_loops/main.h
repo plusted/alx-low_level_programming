@@ -16,4 +16,15 @@ void prnt_strg(void)
 		putchar(*strng);
 	}
 }
+void print_alphabet(void)
+{
+	int i;
+
+	i = 'a';
+
+	for (; i <= 'z'; i++)
+	{
+		putchar(i);
+	}
+}
 #endif
