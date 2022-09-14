@@ -4,10 +4,8 @@
  *
  * Return: n*-1 for negative number or n otherwise
  */
-int _abs(int)
+int _abs(int n)
 {
-	int n;
-
 	if (n < 0)
 	{
 		return (n * -1);
