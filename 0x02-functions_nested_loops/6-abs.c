@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _abs - returns the absolute value of a number
+ * @n: number to be changed to absolute
  *
  * Return: n*-1 for negative number or n otherwise
  */
