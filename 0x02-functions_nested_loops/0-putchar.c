@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - entry point into the program
@@ -8,7 +7,12 @@
 
 int main(void)
 {
-	prnt_str();
-	putchar('\n');
+	char *sh = "_putchar";
+
+	for (; *sh; sh++)
+	{
+		_putchar(*sh);
+	}
+	_putchar('\n');
 	return (0);
 }
