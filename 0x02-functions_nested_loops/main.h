@@ -1,21 +1,27 @@
 #ifndef MAIN_H_
 #define MAIN_H_
+#include <stdio.h>
 /**
- * prnt_strg - prints out a  string
+ * prnt_str - prints out a string
  *
  * Return: a stirng
  */
-void prnt_strg(void)
+void prnt_str(void)
 {
-	char *strng;
+	char *str;
 
-	strng = "_putchar";
+	str = "_putchar";
 
-	for (; *strng; strng++)
+	for (; *str; str++)
 	{
-		putchar(*strng);
+		putchar(*str);
 	}
 }
+/**
+ * print_alphabet - prints out the lowercase alphabet
+ *
+ * Return: a to z and a new line
+ */
 void print_alphabet(void)
 {
 	int i;

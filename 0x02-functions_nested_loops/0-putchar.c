@@ -5,9 +5,10 @@
  *
  * Return: Prints out _putchar and a new line
  */
+
 int main(void)
 {
-	prnt_strg();
+	prnt_str();
 	putchar('\n');
 	return (0);
 }
