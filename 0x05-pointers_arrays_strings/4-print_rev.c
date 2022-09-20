@@ -9,6 +9,7 @@
 void print_rev(char *s)
 {
 	int i, j;
+
 	i = _strlen(s) - 1;
 
 	for (j = i; j >= 0; --j)
@@ -17,6 +18,13 @@ void print_rev(char *s)
 	}
 	_putchar('\n');
 }
+
+/**
+ * _strlen - prints out the length of a string
+ * @s: string whose length is to be printed
+ *
+ * Return: length of the string
+ */
 int _strlen(char *s)
 {
 	int n, sum;
